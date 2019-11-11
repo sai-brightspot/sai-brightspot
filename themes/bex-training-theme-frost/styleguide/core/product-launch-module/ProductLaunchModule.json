@@ -1,6 +1,12 @@
 {
   "_template": "ProductLaunchModule.hbs",
+  "media": {
+    "_template": "/core/image/Image.hbs",
+    "image": {
+      "_image": true
+    }
+  },
   "title": "Product Launch Module",
   "description": "{{words([10,20])}}",
-  "endDate": "02/23/2019 07:05:18 PM"
+  "endDate": "02/23/2020 07:05:18 PM"
 }

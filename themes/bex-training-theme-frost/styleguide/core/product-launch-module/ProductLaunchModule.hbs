@@ -1,5 +1,9 @@
 <div class="ProductLaunchModule" {{#with endDate}} data-enddate="{{this}}" {{/with}}>
 
+    {{#with media}}
+        <div class="ProductLaunchModule-media">{{this}}</div>
+    {{/with}}
+
     {{#with endDate}}
         <div class="ProductLaunchModule-endDate">
             <div id="ProductLaunchModule-days"></div>

@@ -1,8 +1,9 @@
 /* eslint-disable no-unused-vars */
 // All.js
-import $ from 'jquery'
+// import $ from 'jquery'
 import plugins from 'pluginRegistry'
 
+/*
 import { psdToggler } from './util/psd-toggler'
 import lazysizes from 'lazysizes'
 import AnchorTabs from './core/tab/AnchorTabs.js'
@@ -15,6 +16,9 @@ import SearchOverlay from './core/search/SearchOverlay.js'
 import { Tabs } from 'tabs'
 import VideoEvents from './core/video/VideoEvents.js'
 import VideoLead from './core/video/VideoLead.js'
+*/
+import ProductLaunchModule from './core/product-launch-module/ProductLaunchModule.js'
 
-plugins.register(Tabs, '[data-widget=Tabs]')
-plugins.register(PlyrFunctions, '[data-embeddedvideo-container]')
+// plugins.register(Tabs, '[data-widget=Tabs]')
+// plugins.register(PlyrFunctions, '[data-embeddedvideo-container]')
+plugins.register(ProductLaunchModule, '[data-enddate]')

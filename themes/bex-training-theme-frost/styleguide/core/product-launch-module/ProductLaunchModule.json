@@ -1,0 +1,6 @@
+{
+  "_template": "ProductLaunchModule.hbs",
+  "title": "Product Launch Module",
+  "description": "{{words([10,20])}}",
+  "endDate": "02/23/2019 07:05:18 PM"
+}

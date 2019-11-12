@@ -83,7 +83,12 @@ gulp.task(styleguide.task.js(), done => {
 })
 
 gulp.task(styleguide.task.extra('assets'), () => {
-  return gulp.src('styleguide/assets/**', {base: '.'})
+  return gulp.src('styleguide/assets/**', { base: '.' })
+    .pipe(gulp.dest(styleguide.path.build()))
+})
+
+gulp.task(styleguide.task.extra('media'), () => {
+  return gulp.src('styleguide/media/**', { base: '.' })
     .pipe(gulp.dest(styleguide.path.build()))
 })
 

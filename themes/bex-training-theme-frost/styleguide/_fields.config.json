@@ -1,4 +1,32 @@
 {
-  "fields": {},
+  "fields": {
+    "imageAlignment": {
+      "type": "text",
+      "cms.ui.dropDown": true,
+      "cms.ui.note": "Choose image alignment",
+      "values": [
+        {
+          "label": "Left Alignment",
+          "value": "left"
+        },
+        {
+          "label": "Right Alignment",
+          "value": "right"
+        },
+        {
+          "label": "Top Alignment",
+          "value": "top"
+        },
+        {
+          "label": "Bottom Alignment",
+          "value": "bottom"
+        },
+        {
+          "label": "Side Rail",
+          "value": "side-rail"
+        }
+      ]
+    }
+  },
   "_hidden": true
 }

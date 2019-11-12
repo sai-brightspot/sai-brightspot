@@ -1,0 +1,11 @@
+{
+    "styles": {
+        "/core/product-launch-module/ProductLaunchModule.hbs": {
+            "_inline": true,
+            "fields": [
+                "imageAlignment"
+            ]
+        }
+    },
+    "_hidden": true
+}

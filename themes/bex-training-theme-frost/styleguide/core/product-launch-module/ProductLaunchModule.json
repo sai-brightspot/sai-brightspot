@@ -3,6 +3,7 @@
   "media": {
     "_template": "/core/image/Image.hbs",
     "image": {
+      "src": "",
       "_image": true
     }
   },

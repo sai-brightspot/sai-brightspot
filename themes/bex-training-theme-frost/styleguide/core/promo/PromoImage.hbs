@@ -1,6 +1,6 @@
 <div class="PromoImage" {{extraAttributes}}>
     {{#with media}}
-        <div class="PromoImage-media">
+        <div class="PromoImage-media"{{#with ../imageAlignment}}data-alignment="{{this}}"{{/with}}>
             {{~#if ../mobileMedia~}}
                 <picture>
                     <source width="{{this.[0].image.width}}" height="{{this.[0].image.height}}" media="(min-width: 768px)" srcset="{{this.[0].image.srcset}}">

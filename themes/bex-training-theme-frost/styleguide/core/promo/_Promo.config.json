@@ -1,4 +1,18 @@
 {
-  "styles": {},
+  "styles": {
+    "/core/promo/Promo.hbs": {
+      "templates": [
+        {
+          "displayName": "Promo Image",
+          "example": "/core/promo/PromoImage.json",
+          "height": 375,
+          "width": 600,
+          "fields": [
+            "imageAlignment"
+          ]
+        }
+      ]
+    }
+  },
   "_hidden": true
 }

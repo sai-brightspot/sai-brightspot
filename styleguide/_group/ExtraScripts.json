@@ -31,5 +31,8 @@
   },
   {
     "_include": "/mpx/MPXVideoPlayerScript.json"
+  },
+  {
+    "_include": "/dfp-custom/GoogleDfpCustomScript.json"
   }
 ]

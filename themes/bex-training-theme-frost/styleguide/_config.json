@@ -1916,6 +1916,24 @@
         }
       ]
     },
+    "/core/product-launch-module/ProductLaunchModule.hbs": {
+      "width": 800,
+      "height": 500,
+      "scale": 0.2,
+      "example": "/core/product-launch-module/ProductLaunchModule.json",
+      "templates": [
+        {
+          "displayName": "Product Launch Module B",
+          "template": "/core/product-launch-module/ProductLaunchModuleB.hbs",
+          "example": "/core/product-launch-module/ProductLaunchModuleB.json"
+        },
+        {
+          "displayName": "Product Launch Module C",
+          "template": "/core/product-launch-module/ProductLaunchModuleC.hbs",
+          "example": "/core/product-launch-module/ProductLaunchModuleC.json"
+        }
+      ]
+    },
     "/core/navigation/NavigationItem.hbs": {
       "width": 800,
       "height": 500,

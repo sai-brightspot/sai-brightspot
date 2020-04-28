@@ -89,6 +89,12 @@
           "width": 400
         },
         {
+          "displayName": "List Z",
+          "example": "/core/list/ListZ.json",
+          "height": 500,
+          "width": 800
+        },
+        {
           "displayName": "List Section",
           "hidden": true,
           "example": "/core/list/ListSection.json",

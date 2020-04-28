@@ -147,6 +147,10 @@
         {
           "name": "List Tags",
           "content": "/core/list/ListTags.html"
+        },
+        {
+          "name": "List Z",
+          "content": "/core/list/ListZ.html"
         }
       ]
     },

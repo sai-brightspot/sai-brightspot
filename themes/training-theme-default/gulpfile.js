@@ -6,6 +6,17 @@ const size = require('gulp-size')
 
 const styleguide = new Styleguide(gulp, { webpack: true, parent: '../../' })
 
+gulp.task(styleguide.task.extra('inherit-root'), () => {
+  return gulp
+    .src(
+    [
+      '../../styleguide/**/*.hbs'
+    ],
+      { base: '../../styleguide' }
+    )
+    .pipe(gulp.dest(styleguide.path.build()))
+})
+
 gulp.task(styleguide.task.extra('assets'), () => {
   return gulp
     .src(

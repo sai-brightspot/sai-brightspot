@@ -10,9 +10,9 @@ gulp.task(styleguide.task.extra('inherit-root'), () => {
   return gulp
     .src(
     [
-      '../../styleguide/**/*.hbs'
+      '../base-theme/styleguide/**/*.hbs'
     ],
-      { base: '../../styleguide' }
+      { base: '../base-theme/styleguide' }
     )
     .pipe(gulp.dest(styleguide.path.build()))
 })

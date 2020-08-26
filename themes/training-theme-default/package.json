@@ -72,7 +72,6 @@
     "server:brightspot": "gulp styleguide --webpack-config webpack.dev.js --webpack-target https://www.brightspot.com/",
     "server:styleguide": "gulp styleguide --webpack-config webpack.dev.js"
   },
-
   "standard": {
     "parser": "babel-eslint"
   }

@@ -1,11 +1,7 @@
 {
   "styles": {
     "/core/list/List.hbs": {
-      "fields": [
-        "hideCategories",
-        "hideDates",
-        "hideDescriptions"
-      ],
+      "fields": ["hideCategories", "hideDates", "hideDescriptions"],
       "templates": [
         {
           "displayName": "List A",
@@ -30,9 +26,7 @@
           "example": "/core/list/ListC.json",
           "height": 500,
           "width": 800,
-          "fields": [
-            "imageAlignment"
-          ]
+          "fields": ["imageAlignment"]
         },
         {
           "displayName": "List Load More",
@@ -79,6 +73,12 @@
         {
           "displayName": "List K",
           "example": "/core/list/ListK.json",
+          "height": 500,
+          "width": 800
+        },
+        {
+          "displayName": "List Z",
+          "example": "/core/list/ListZ.json",
           "height": 500,
           "width": 800
         },

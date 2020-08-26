@@ -31,6 +31,15 @@
       ]
     },
     {
+      "name": "Countdown",
+      "pages": [
+        {
+          "name": "End of the World Countdown",
+          "content": "/countdown/CountdownModule.html"
+        }
+      ]
+    },
+    {
       "name": "Promos",
       "hideTabs": true,
       "pages": [

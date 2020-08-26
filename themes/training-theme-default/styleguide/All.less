@@ -1,48 +1,48 @@
 // lesshint selectorNaming: false
 // lesshint universalSelector: false
 
- @import (inline) '../node_modules/sanitize.css/sanitize.css';
- @import (inline) '../node_modules/flickity/css/flickity.css';
+@import (inline) '../node_modules/sanitize.css/sanitize.css';
+@import (inline) '../node_modules/flickity/css/flickity.css';
 
 // ----- Globals. These are items like variables, mixins, typography, etc -----
 @import 'global/All';
 
- // ----- Global, across themes, base styles -----
- html {
-     font-size: 62.5%;
- }
+// ----- Global, across themes, base styles -----
+html {
+  font-size: 62.5%;
+}
 
- body,
- html {
-     height: 100%;
- }
+body,
+html {
+  height: 100%;
+}
 
- blockquote,
- figure,
- hr {
-   margin: 0;
- }
+blockquote,
+figure,
+hr {
+  margin: 0;
+}
 
- ul,
- ol {
-     margin: 0;
-     padding: 0;
- }
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+}
 
- a {
-     text-decoration: none;
-     color: inherit;
+a {
+  text-decoration: none;
+  color: inherit;
 
-     &:hover {
-         text-decoration: none;
-     }
- }
+  &:hover {
+    text-decoration: none;
+  }
+}
 
- img {
-     display: block;
-     height: auto;
-     max-width: 100%;
- }
+img {
+  display: block;
+  height: auto;
+  max-width: 100%;
+}
 
 // ----- Base page -----
 @import 'core/page/All';
@@ -73,6 +73,7 @@
 @import 'core/section/All';
 @import 'core/tag/All';
 
+@import 'countdown/All';
 @import 'training/All';
 
 html {

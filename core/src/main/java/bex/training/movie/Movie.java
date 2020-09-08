@@ -7,6 +7,7 @@ import java.util.Set;
 import java.util.stream.Collectors;
 
 import bex.training.character.Character;
+import bex.training.hud.Hud;
 import bex.training.release.Releasable;
 import brightspot.core.image.ImageOption;
 import brightspot.core.link.Linkable;
@@ -61,6 +62,11 @@ public class Movie extends Content implements Linkable,
     @ToolUi.Filterable
     private Phase phase;
 
+    @Required
+    @Indexed
+    @ToolUi.Filterable
+    private Hud hud;
+
     // Getters and Setters.
 
     public String getName() {
@@ -101,6 +107,14 @@ public class Movie extends Content implements Linkable,
 
     public void setPhase(Phase phase) {
         this.phase = phase;
+    }
+
+    public Hud getHud() {
+        return hud;
+    }
+
+    public void setHud(Hud hud) {
+        this.hud = hud;
     }
 
     @Indexed

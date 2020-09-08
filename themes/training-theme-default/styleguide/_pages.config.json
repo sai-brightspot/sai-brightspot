@@ -40,6 +40,15 @@
       ]
     },
     {
+      "name": "Heads Up Display (HUD)",
+      "pages": [
+        {
+          "name": "Heads Up Display (HUD)",
+          "content": "/training/hud/Hud.html"
+        }
+      ]
+    },
+    {
       "name": "Promos",
       "hideTabs": true,
       "pages": [

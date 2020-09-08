@@ -3,6 +3,7 @@ import './All.less'
 
 import { ActionBar } from 'actionbar'
 import { Banner } from 'banner'
+import { BSPAccordion } from 'bspAccordion'
 import { Carousel } from 'carousel'
 import { CountdownModule } from 'countdownModule'
 import { GalleryPage } from 'galleryPage'
@@ -24,6 +25,7 @@ import { VideoPlaylist } from 'videoPlaylist'
 function registerCustomElements () {
   window.customElements.define('ps-actionbar', ActionBar)
   window.customElements.define('ps-banner', Banner)
+  window.customElements.define('bsp-accordion', BSPAccordion)
   window.customElements.define('ps-carousel', Carousel)
   window.customElements.define('ps-countdown-module', CountdownModule)
   window.customElements.define('ps-gallery-page', GalleryPage)
